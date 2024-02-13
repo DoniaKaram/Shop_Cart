@@ -1,0 +1,149 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+}
+header
+{
+    background-color: #333333;
+    padding: 10px;
+    
+    
+}
+.header-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+a
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+nav ul
+{
+    list-style:none ;
+    display: flex;
+}
+nav ul#user-info
+{
+    display: none;
+    align-items: center;
+}
+nav ul#user-info li{
+    position: relative;
+    margin: 0 5px;
+}
+nav ul#user-info li i
+{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+ .badge
+{
+    width: 20px;
+    height: 20px;
+    background-color: crimson;
+    color: #fff;
+    text-align: center;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right:0;
+    line-height: 5px;
+    display: none;
+}
+.cart-products
+{
+    position: absolute;
+    z-index: 30;
+    width: 200px;
+    transform: translate(-42%,0);
+    background: #eaeaea;
+    top: 10%;
+    padding: 10px;
+    border: 1px solid  blue;
+  display:none ;
+}
+.cart-products a
+{
+    display: block ;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px;
+    background-color:blue ;
+}
+nav li
+{
+    display: block;
+    margin: 0 5px;
+   min-width: 40px;
+}
+
+
+form input
+{
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    margin: 8px 0;
+}
+form input[type="submit"]
+{
+    width: 50%;
+    margin: auto;
+    padding: 5px 0;
+    font-size: 15px;
+   
+}
+form input[type="submit"]:hover
+{
+    opacity: 0.5;
+    
+}
+.section-form
+{
+    background-color:#D0A2F7;
+    color: #6C22A6;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    text-align: center;
+    background-color:#D0A2F7;
+    padding: 30px;
+}
+.inputs
+{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputs input
+{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    width: 50%;
+    border: 1px solid #333333;
+    border-radius: 5px ;
+}
+
+
+
